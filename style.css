@@ -1,0 +1,156 @@
+/*style.css*/
+
+/*
+font-family: 'Montserrat', sans-serif;
+800 y 900
+*/
+ #wrapper{
+ 	width: 70%;
+ 	min-width: 800px;
+ 	margin:auto;
+ }
+
+ header{
+ 	height:160px;
+ }
+
+header #foto{
+	width:25%;
+	float:left;
+}
+
+#foto img{
+	width:80%;
+	display:block;
+	margin:auto;
+	margin-left: 0;
+}
+#perfil{
+	width:75%;
+	float: left;
+}
+
+#perfil h1, h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	text-shadow: -2px 0px 0px rgba(255,0,0,0.5), 2px 0px 0px rgba(0,255,255,0.5);
+	padding-top: 6px;
+	margin:0;
+}
+
+#perfil h2{
+	margin:0;
+	font-size: 20px;
+}
+
+#perfil p{
+	margin:0;
+	font-style: italic;
+}
+
+#perfil ul{
+	padding:0;
+
+}
+
+#perfil ul li{
+	float:left;
+	width: auto;
+	margin: 10px 80px 0 0;
+	list-style: none;
+	text-align: left;
+}
+
+#perfil ul li a{
+	text-decoration: none;
+	color: #1a1a1a;
+	border: 1px solid rgba(255,0,0,1);
+	padding: 3px 10px 3px 10px;
+}
+
+#perfil ul li a:hover{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+hr{
+	clear:both;
+	margin: 20px 0 10px 0;
+}
+
+#right-content, #left-content{
+	width:48%;
+	float:left;
+	margin-top:10px;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+#right-content h3, #left-content h3{
+	font-size: 25px;
+}
+
+#right-content h3, #left-content h3{
+	font-size: 25px;
+}
+
+#right-content p, #left-content p{
+	font-weight: bold;
+}
+
+#right-content p span, #left-content p span{
+	font-weight: normal;
+	font-style: italic;
+}
+
+span.work{
+	font-size: 14px;
+}
+
+#right-content ul, #left-content ul{
+list-style: none;
+padding-left:20px;
+	
+}
+
+#portfolio{
+	clear:both;
+	width: 100%;
+}
+
+#portfolio h3{
+ font-size: 30px;
+ text-align: center;
+}
+
+#portfolio ul li{
+	float:left;
+	list-style: none;
+	width:25%;
+	min-width: 190px;
+}
+
+#portfolio ul li img{
+	display:block;
+	margin:auto;
+}
+
+#portfolio ul li p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: normal;
+}
+
+#portfolio ul li span{
+	font-family: serif;
+	font-size: 14px;
+	font-style: italic;
+}
+
+footer{
+	text-align: center;
+	font-style: italic;
+}
+
+
+
